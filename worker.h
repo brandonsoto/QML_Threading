@@ -22,6 +22,7 @@ public:
 
     Q_INVOKABLE int getData() const { return data_; }
 
+// TODO: add signals for each type of received message by the worker thread?
 signals:
     void dataChanged( const int data );
 
